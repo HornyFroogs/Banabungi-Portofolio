@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desa Banabungi</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Bagian header dengan gambar background */
+        .header {
+            background-image: url('WhatsApp Image 2025-10-12 at 12.33.10_b5165a7d.jpg'); /* ganti dengan nama file gambarmu */
+            background-size: cover;
+            background-position: center;
+            height: 300px; /* bisa disesuaikan */
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Menu navigasi di atas gambar */
+        .nav {
+            background: rgba(0, 0, 0, 0.5); /* efek transparan hitam */
+            padding: 10px 20px;
+            border-radius: 8px;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .nav a:hover {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="nav"> 
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+            <a href="index.html">Home</a>
+            <a href="sejarah.html">Sejarah Desa</a>
+            <a href="kegiatan.html">Kegiatan Desa</a>
+            <a href="struktur.html">Struktur Desa</a>
+            <a href="profile.html">Profil & Galeri Desa</a>
+            <a href="kuliner.html">Kuliner</a>
+            <a href="wisata.html">Wisata Banabungi</a>
+            <a href="tambang.html">Tambang</a>
+        </div>
+    </div>
+
+    <!-- ====== STRUKTUR ====== -->
+        <section class="struktur">
+            <div class="container">
+                <h5><strong>STRUKTUR ORGANISASI DESA BANABUNGI</strong></h5>
+                <center>
+                    <p>KABUPATEN BUTON KECAMATAN PASARWAJO</p>
+                    <img src="Logo+PKK.png"
+                    width="300px" height="300px">
+                    <p><strong>TP. PKK DESA</strong></p>
+                    <p> Lembaga Kemasyarakatan desa sebagai mitra kerja pemerintahan dan organisasi kemasyarakatan lainnya, yang berfungsi sebagai Fasilitator, perencanaan, pelaksana, pengendali dan penggerak pada masing-masing jenjang pemerintahan untuk terlaksananya program PKK</p>
+                    <img src="logo-karang-taruna.png"
+                    width="300px" height="300px">
+                    <p><strong>KARANG TARUNA</strong></p>
+                    <p>Karang Raruna meruakan wadah pengembangan generasi muda nonparatisme, yang tumbuh atas dasar kesadaran dan rasa tanggung jawab sosial dasi, oleh dan untuk masyarakat desa yang bergerak di bidang kesejeahteraan sosial</p>
+                </center>
+            </div>
+        </section>
+
+      <!-- ====== FOOTER ====== -->
+  <footer>
+    <div class="container" style="text-align:center; padding: 15px 0;">
+      <p>&copy; <span id="tahun"></span> Desa Banabungi. Project Universitas Muhammadiyah Buton.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
